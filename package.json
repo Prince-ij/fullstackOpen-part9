@@ -1,0 +1,38 @@
+{
+  "name": "fullstackopen-part9",
+  "version": "1.0.0",
+  "description": "Typescript",
+  "main": "index.js",
+  "scripts": {
+    "calculateBmi": "ts-node bmiCalculator.ts",
+    "calculateExercises": "ts-node exerciseCalculator.ts",
+    "dev": "ts-node-dev index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prince-ij/fullstackOpen-part9.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Prince-ij/fullstackOpen-part9/issues"
+  },
+  "homepage": "https://github.com/Prince-ij/fullstackOpen-part9#readme",
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "express": "^5.1.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@stylistic/eslint-plugin": "^5.5.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/express": "^5.0.5",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.4"
+  }
+}
